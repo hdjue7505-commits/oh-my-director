@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/brand/hero.svg" width="100%" alt="oh-my-director：一个创作者站在午夜城市的金色光门前，每个世界都从一个念头开始。" />
+<img src="docs/ui-preview/cover.jpg" width="100%" alt="Oh My Director 暮光电影馆：新版品牌首页、电影主视觉与五个创作工位。" />
+
+**[查看新版界面图集](docs/ui-preview/README.md) · [打开交互界面说明](ui/README.md) · [获取 UI 源码](ui/)**
 
 # oh-my-director
 
