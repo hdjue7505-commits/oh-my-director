@@ -215,6 +215,16 @@ python scripts/install.py
 
 </div>
 
+## 品牌 UI · 暮光电影馆
+
+新增一套可离线打开的品牌官网与创作工作台原型：电影主视觉、五个工位、项目管理与品牌手册。
+
+**[打开界面源码](ui/index.html) · [品牌规范与运行说明](ui/README.md)**
+
+在仓库根目录运行 `python -m http.server 4173 --bind 127.0.0.1 --directory ui`，访问 `http://127.0.0.1:4173`。
+
+当前为本地交互原型：可编辑、保存及导出资料；正式生成和 Blender 白膜按现有工作流执行。
+
 ## 借鉴与致谢
 
 - [ai-series-visual-dna](ai-series-visual-dna) 借鉴了 [cinema-dna-21x9x3](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3)。
