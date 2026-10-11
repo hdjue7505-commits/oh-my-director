@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1213">
+  <meta name="description" content="Oh My Director — 让每个人都能执导一部属于自己的电影。暮光电影馆品牌与创作工作台。">
+  <title>Oh My Director · 每个世界，都从一个念头开始</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app"></div>
+  <dialog id="project-dialog" aria-labelledby="dialog-title">
+    <form id="project-form">
+      <div class="dialog-top"><span class="eyebrow">A NEW BEGINNING</span><button type="button" class="icon-button" data-action="close-modal" aria-label="关闭">×</button></div>
+      <span class="dialog-spark">✧</span><h2 id="dialog-title">给你的世界，一个名字。</h2>
+      <p>一句灵感，也可以是一部电影的开始。</p>
+      <label for="project-name">影片名称</label><input id="project-name" name="name" maxlength="40" placeholder="例如：海边的最后一封信" required>
+      <label for="project-seed">故事的第一个念头</label><textarea id="project-seed" name="seed" rows="4" maxlength="10000" placeholder="一个人，一个地方，一件不该发生的事……"></textarea>
+      <div class="form-row"><label>影片类型<select name="genre"><option>剧情 / 短片</option><option>悬疑 / 都市</option><option>奇幻 / 冒险</option><option>爱情 / 文艺</option></select></label><label>画面比例<select name="ratio"><option>16:9</option><option>21:9</option><option>9:16</option></select></label></div>
+      <button class="button gold full" type="submit">为这个故事开场 <span>↗</span></button>
+      <p class="form-note">保存在当前浏览器 · 随时导出你的创作资料</p>
+    </form>
+  </dialog>
+  <input id="import-file" type="file" accept=".txt,.md,text/plain,text/markdown" hidden>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
